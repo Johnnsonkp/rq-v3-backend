@@ -1,4 +1,5 @@
 import "./App.css";
+<<<<<<< HEAD
 
 import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import React, { useEffect, useState } from "react";
@@ -9,6 +10,8 @@ import Nav from "./Nav";
 import SingleQuestion from "./SingleQuestion";
 import { UserProvider } from "./index.jsx";
 import logo from "./logo.svg";
+=======
+>>>>>>> server-rollback
 
 function App() {
   const [counter, setCounter] = useState(0);
@@ -28,6 +31,7 @@ function App() {
   }, [toggle, counter]);
 
   return (
+<<<<<<< HEAD
     <UserProvider>
       <Router>
         <div className="App">
@@ -46,6 +50,11 @@ function App() {
         </div>
       </Router>
     </UserProvider>
+=======
+    <div className="App">
+      <header className="App-header"></header>
+    </div>
+>>>>>>> server-rollback
   );
 }
 
